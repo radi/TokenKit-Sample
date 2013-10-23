@@ -1,0 +1,15 @@
+PODS:
+  - TokenKit (0.0.1)
+
+DEPENDENCIES:
+  - TokenKit (from `git@github.com:radi/TokenKit.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  TokenKit:
+    :branch: master
+    :git: git@github.com:radi/TokenKit.git
+
+SPEC CHECKSUMS:
+  TokenKit: f9ff07ead4b12798215a20f07d0792e50f5f3e76
+
+COCOAPODS: 0.26.2
