@@ -1,15 +1,15 @@
 PODS:
-  - TokenKit (0.0.1)
+  - TokenKit (0.0.2)
 
 DEPENDENCIES:
-  - TokenKit (from `git@github.com:radi/TokenKit.git`, branch `master`)
+  - TokenKit (from `git@github.com:radi/TokenKit.git`, tag `0.0.2`)
 
 EXTERNAL SOURCES:
   TokenKit:
-    :branch: master
     :git: git@github.com:radi/TokenKit.git
+    :tag: 0.0.2
 
 SPEC CHECKSUMS:
-  TokenKit: f9ff07ead4b12798215a20f07d0792e50f5f3e76
+  TokenKit: ca0fc0f5cf943a41c5ff7af7354620ae126458d0
 
 COCOAPODS: 0.26.2

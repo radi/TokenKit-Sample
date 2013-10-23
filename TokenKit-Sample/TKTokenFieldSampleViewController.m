@@ -50,9 +50,12 @@
 	[UIView animateWithDuration:(animated ? 0.3f : 0.0f) delay:0.0f options:UIViewAnimationOptionAllowUserInteraction| UIViewAnimationOptionBeginFromCurrentState|UIViewAnimationOptionCurveEaseInOut animations:^{
 		CGSize size = self.tokenField.collectionView.contentSize;
 		UIEdgeInsets insets = self.tokenField.collectionView.contentInset;
-		self.tokenField.bounds = (CGRect){ CGPointZero,
+		self.tokenField.frame = (CGRect){
+			CGPointZero,
 			(CGSize){
-				size.width + insets.left + insets.right,
+				320.0f,
+//				self.tokenField.bounds.size.width,
+//				size.width + insets.left + insets.right,
 				MIN(size.height, 0.8f * CGRectGetHeight(self.view.bounds)) + insets.top + insets.bottom
 			}
 		};
